@@ -1,0 +1,31 @@
+/* Related Page Item styles */
+.related-page-item {
+    display: inline-block;
+    width: 33%;
+    color: #000;
+    border-left: 2px solid #00d2ff;
+    padding-left: 15px;
+}
+
+.related-page-item .page-title {
+   font-size: 25px;
+   color: #000;
+   text-decoration: none;
+}
+
+.related-page-item .page-description {
+   font-size: 15px;
+   padding-top: 12px;
+}
+
+@media screen and (max-width: 991px){
+    .related-page-item{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .related-page-item{
+        width: 100%;
+    }
+}
